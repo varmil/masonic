@@ -10,14 +10,14 @@ bench('IntervalTree.search()', ({duration}) => {
     const lower = randInt(0, 200000)
     tree.insert(lower, lower + randInt(200, 400), i)
   }
-  const cb = () => {}
+  const cb = () => undefined
 
   return () => {
     tree.search(0, 300000, cb)
   }
 })
 
-bench('IntervalTree.insert()', ({duration, after}) => {
+bench('IntervalTree.insert()', ({duration, _after}) => {
   duration(4000)
   const tree = createIntervalTree()
   let i = 0
