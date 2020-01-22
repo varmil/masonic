@@ -1,10 +1,10 @@
 {
   "name": "masonic",
-  "version": "2.1.0",
-  "homepage": "https://github.com/jaredLunde/masonic#readme",
-  "repository": "github:jaredLunde/masonic",
-  "bugs": "https://github.com/jaredLunde/masonic/issues",
-  "author": "Jared Lunde <jared.lunde@gmail.com> (https://jaredLunde.com)",
+  "version": "2.1.1",
+  "homepage": "https://github.com/varmil/masonic#readme",
+  "repository": "github:varmil/masonic",
+  "bugs": "https://github.com/varmil/masonic/issues",
+  "author": "Akihiro Yamamoto",
   "license": "MIT",
   "description": "An autosizing masonry component which only renders items currently visible in the window.",
   "keywords": [
